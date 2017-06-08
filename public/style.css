@@ -1,0 +1,70 @@
+#order-box {
+	position: absolute;
+	top: 285px;
+	left: 975px;
+}
+
+.order-field {
+	display: none;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.navitem {
+	display: inline;
+	font-size: 2em;
+	padding: 10px;
+	text-align: left;
+}
+
+.navitem a {
+	color: orange;
+}
+
+.osu-image {
+	width: 100%;
+	height: 175px;
+}
+
+.order {
+	text-align: right;
+	margin-right: 20px;
+	color: orange;
+	font-size: 3em;
+	position: relative;
+	bottom: 80px;
+}
+
+nav {
+	position: absolute;
+	bottom: 1px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+.OSU-Text {
+	color: white;
+	text-align:center;
+	position: relative;
+	bottom: 30px;
+	font-size: 2.5em;
+}
+
+
+header {
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 369px;
+
+}
+
+body {
+	margin-top: 350px;
+}
+
+
