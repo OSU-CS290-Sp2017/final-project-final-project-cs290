@@ -1,0 +1,84 @@
+{
+  "west": {
+    "hall-name": "West Dining Hall",
+    "hall-text": "Go Beavs!",
+    "restaurants": [
+      {
+        "name": "Seranos",
+        "restText": "We got Burritos!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "EBGBs",
+        "restText": "We got stuff!",
+        "items": [
+          {
+            "1": "Gatorade",
+            "2": "Apple",
+            "3": "Banana"
+          }
+        ]
+      },
+      {
+        "name": "Calabaloo's",
+        "restText": "We got stuff!",
+        "Items": [
+          {
+            "1": "Bacon Burger",
+            "2": "Milkshake",
+            "3": "Soda"
+          }
+        ]
+      }
+    ]
+  },
+
+
+"mcnary": {
+    "hall-name": "McNary Dining Hall",
+    "hall-text": "Wow!",
+    "restaurants": [
+      {
+        "name": "Boardwalk Cafe",
+        "rest-text": "We got coffee!",
+        "items": [
+          {
+            "1": "Espresso",
+            "2": "Coffee Cake",
+            "3": "Fruit"
+          }
+        ]
+      },
+      {
+        "name": "La Calle",
+        "rest-text": "We got stuff!",
+        "items": [
+          {
+            "1": "Coffee",
+            "2": "Orange",
+            "3": "Beans"
+          }
+        ]
+      },
+      {
+        "name": "Calabaloo's",
+        "rest-text": "We got stuff!",
+        "Items": [
+          {
+            "1": "Bacon Burger",
+            "2": "Milkshake",
+            "3": "Soda"
+          }
+        ]
+      }
+    ]
+  }
+}
