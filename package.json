@@ -4,7 +4,9 @@
   "description": "directory for dining halls, restaurants and their foods",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10"
   },
   "devDependencies": {},
   "scripts": {
