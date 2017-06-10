@@ -9,10 +9,8 @@
     </p>
   </div>
   <div class="rest-items">
-    <ul>
-    {{#each items}}
-      <li>{{food}}</li>
-    {{/each}}
-  </ul>
+    {{#list items}}
+      {{food}}
+      {{/list}}
   </div>
 </article>
