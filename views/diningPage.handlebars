@@ -1,0 +1,10 @@
+<!-- This is the main page containing a box for each dining hall -->
+{{> header}}
+
+
+<main class = "hall">
+<!-- dynamically allocate each restaurant tile  -->
+  {{#each hall}}
+    {{> hallCard}}
+  {{/each}}
+</main>

@@ -1,0 +1,140 @@
+{
+  "west": {
+    "hallTitle": "West Dining Hall",
+    "hallText": "Go Beavs!",
+    "restaurants": [
+      {
+        "name": "Seranos",
+        "restText": "We got Burritos!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "EBGBs",
+        "restText": "We got stuff!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "Calabaloo's",
+        "restText": "We got stuff!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      }
+    ]
+  },
+
+  "mcnary": {
+    "hallTitle": "McNary Dining Hall",
+    "hallText": "Go Beavs!",
+    "restaurants": [
+      {
+        "name": "Seranos",
+        "restText": "We got Burritos!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "EBGBs",
+        "restText": "We got stuff!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "Calabaloo's",
+        "restText": "We got stuff!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      }
+    ]
+  },
+
+  "arnold": {
+    "hallTitle": "Arnold Dining Hall",
+    "hallText": "Go Beavs!",
+    "restaurants": [
+      {
+        "name": "Seranos",
+        "restText": "We got Burritos!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "EBGBs",
+        "restText": "We got stuff!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "Calabaloo's",
+        "restText": "We got stuff!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      }
+    ]
+  }
+
+}
