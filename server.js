@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname,'public')));
 hbs.registerHelper("list",function(items,options){
   var list = "<ul>";
     for (var i=0, l=items.length;i<l; i++){
-      list = list + "<li>" + options.fn(items[i]) + "</li>";
+      list = list + "<li class='rest-food'>" + options.fn(items[i]) + "</li>";
   }
   return list+"</ul>";
 });

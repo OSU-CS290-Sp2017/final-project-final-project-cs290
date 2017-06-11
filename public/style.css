@@ -1,24 +1,19 @@
-#order-box {
+body {
+	margin-top: 350px;
+}
+
+a {
+text-decoration: none;
+}
+
+header {
+	background-color: black;
 	position: absolute;
-	top: 205px;
-	left: 950px;
-}
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 450px;
 
-.order-field {
-	display: none;
-	text-align: right;
-	margin-bottom: 10px;
-}
-
-.navitem {
-	display: inline;
-	font-size: 2em;
-	padding: 10px;
-	text-align: left;
-}
-
-.navitem a {
-	color: #c44512;
 }
 
 .osu-image {
@@ -30,6 +25,13 @@
 	z-index: 1;
 }
 
+.OSU-Text {
+	color: white;
+	text-align:center;
+	position: relative;
+	bottom: 15px;
+	font-size: 2.5em;
+}
 
 #back-change {
 	width: 100%;
@@ -41,6 +43,17 @@
 	z-index: 0;
 }
 
+#order-box {
+	position: absolute;
+	top: 205px;
+	left: 950px;
+}
+
+.order-field {
+	display: none;
+	text-align: right;
+	margin-bottom: 10px;
+}
 
 .order {
 	text-align: right;
@@ -57,37 +70,46 @@
 	cursor: pointer;
 }
 
-
 nav {
 	position: absolute;
 	bottom: 7px;
 }
 
-header a {
-	text-decoration: none;
-}
-
-.OSU-Text {
-	color: white;
-	text-align:center;
-	position: relative;
-	bottom: 15px;
-	font-size: 2.5em;
-}
-
-
-header {
-	background-color: black;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	bottom: 450px;
+.navbar  {
 
 }
 
-body {
-	margin-top: 350px;
+.navlist {
+
+}
+
+.navitem {
+	display: inline;
+	font-size: 2em;
+	padding: 10px;
+	text-align: left;
+}
+
+.navitem a {
+	color: #c44512;
+}
+
+/*I'm assuming the dining hall and restaurant classes are going to be the same but
+	you can change this if there needs to be a difference in either one.
+*/
+
+.hall-container .rest-container{
+
+}
+
+
+.hall .rest{
+
+}
+
+
+.hall-content .rest-content{
+
 }
 
 nav ul li.navitem:hover {
@@ -108,4 +130,23 @@ nav ul li.navitem.active {
 
 
 
+.hall-title .rest-title{
 
+}
+
+
+.hall-text .rest-text {
+
+}
+
+/*rest items is <ul> tag*/
+.rest-items {
+
+}
+
+/*rest-food is <li> tag*/
+
+.rest-food{
+	font-size: 20px;
+	list-style-type: none;
+}
