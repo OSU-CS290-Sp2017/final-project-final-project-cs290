@@ -1,3 +1,48 @@
+body {
+	margin-top: 350px;
+}
+
+a {
+text-decoration: none;
+}
+
+header {
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 450px;
+
+}
+
+.osu-image {
+	position: relative;
+	width: 70%;
+	height: 60%;
+	display: block;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.OSU-Text {
+	color: white;
+	text-align:center;
+	position: relative;
+	bottom: 15px;
+	font-size: 2.5em;
+}
+
+#back-change {
+	width: 100%;
+	height: 60%;
+	display: block;
+	margin: 0 auto;
+	position: absolute;
+	background-color:white;
+	z-index: 0;
+}
+
 #order-box {
 	position: absolute;
 	top: 205px;
@@ -8,6 +53,30 @@
 	display: none;
 	text-align: right;
 	margin-bottom: 10px;
+}
+
+.order {
+	text-align: right;
+	right: 60px;
+	color: #c44512;
+	font-size: 3em;
+	position: relative;
+	bottom: 97px;
+	margin-left: 1025px;
+
+}
+
+nav {
+	position: absolute;
+	bottom: 7px;
+}
+
+.navbar  {
+
+}
+
+.navlist {
+
 }
 
 .navitem {
@@ -21,70 +90,34 @@
 	color: #c44512;
 }
 
-.osu-image {
-	position: relative;
-	width: 70%;
-	height: 60%;
-	display: block;
-	margin: 0 auto;
-	z-index: 1;
-}
+/*I'm assuming the dining hall and restaurant classes are going to be the same but
+	you can change this if there needs to be a difference in either one.
+*/
 
-
-#back-change {
-	width: 100%;
-	height: 60%;
-	display: block;
-	margin: 0 auto;
-	position: absolute;
-	background-color:white;
-	z-index: 0;
-}
-
-
-.order {
-	text-align: right;
-	right: 60px;
-	color: #c44512;
-	font-size: 3em;
-	position: relative;
-	bottom: 97px;
-	margin-left: 1025px;
+.hall-container .rest-container{
 
 }
 
 
-nav {
-	position: absolute;
-	bottom: 7px;
-}
-
-header a {
-	text-decoration: none;
-}
-
-.OSU-Text {
-	color: white;
-	text-align:center;
-	position: relative;
-	bottom: 15px;
-	font-size: 2.5em;
-}
-
-
-header {
-	background-color: black;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	bottom: 450px;
+.hall .rest{
 
 }
 
-body {
-	margin-top: 350px;
+
+.hall-content .rest-content{
+
 }
 
 
+.hall-title .rest-title{
 
+}
+
+
+.hall-text .rest-text {
+
+}
+
+.rest-items {
+
+}
