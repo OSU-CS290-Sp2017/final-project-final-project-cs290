@@ -118,6 +118,14 @@ nav {
 
 }
 
+/*rest items is <ul> tag*/
 .rest-items {
 
+}
+
+/*rest-food is <li> tag*/
+
+.rest-food{
+	font-size: 20px;
+	list-style-type: none;
 }
