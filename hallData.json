@@ -4,42 +4,90 @@
     "hallText": "Go Beavs!",
     "restaurants": [
       {
-        "name": "Seranos",
-        "restText": "We got Burritos!",
+        "name": "Calabaloo's",
+        "restText": "Burgers Galore!",
         "items": [
-
-            {"food": "Burrito"},
-            {"food": "apple"},
-            {"food": "banana"},
-            {"food": "Burrito"},
-            {"food": "Burrito"}
-
+            {"food": "Calabaloo's Hamburger"},
+            {"food": "Bacon Cheeseburger"},
+            {"food": "Chicken Sandwich"},
+            {"food": "French Fries"},
+            {"food": "Onion Rings"}
+        ]
+      },
+	  {
+        "name": "Clubhouse Deli",
+        "restText": "Made-to-Order Sandwiches",
+        "items": [
+            {"food": "Custom Sandwich"},
+            {"food": "Cereal Selection"},
+            {"food": "Bagel Selection"},
+            {"food": "Salad Bar Selection"},
+            {"food": "Smoothie Selection"}.
+			{"food": "Soup Selection"}
+        ]
+      },
+	  {
+        "name": "Cooper's Creek",
+        "restText": "Heavy Meals are us!",
+        "items": [
+            {"food": "Pancakes and Waffles"},
+			{"food": "Bacon and Sausage"},
+            {"food": "Fruit Salad"},
+            {"food": "Biscuits and Gravy"},
+            {"food": "Grilled Beef and Chicken"},
+            {"food": "Fries and Potato Chips"}.
+			{"food": "BBQ Pork Ribs"}
         ]
       },
       {
         "name": "EBGBs",
-        "restText": "We got stuff!",
+        "restText": "Jumpstart your Day!",
         "items": [
-
-            {"food": "Burrito"},
-            {"food": "apple"},
-            {"food": "banana"},
-            {"food": "Burrito"},
-            {"food": "Burrito"}
-
+            {"food": "Espresso"},
+            {"food": "Americano"},
+            {"food": "Latte"},
+            {"food": "Mocha"},
+            {"food": "Breve"},
+			{"food": "Cafe au Lait"},
+			{"food": "Cappuccino"},
+			{"food": "Chai Tea Latte"},
+			{"food": "Iced Coffee"},
+			{"food": "Fruit Smoothie"}
+        ]
+      },
+	  {
+        "name": "Ring of Fire",
+        "restText": "We've got your Choices!",
+        "items": [
+            {"food": "Yakisoba Noodles"},
+            {"food": "Gyoza/Pot Stickers"},
+            {"food": "Fried Rice"},
+            {"food": "Spring Rolls"},
+            {"food": "Teriyaki Chicken"},
+			{"food": "Korean Beef Rice Bowl"},
+			{"food": "Curry"},
+			{"food": "Vietnamese Chicken"},
+			{"food": "Ramen"}
+        ]
+      },
+	  {
+        "name": "Serrano Grill",
+        "restText": "We have Grills!",
+        "items": [
+            {"food": "Nachos"},
+            {"food": "Tacos"},
+            {"food": "Burrito Selection"},
+            {"food": "Quesadilla Selection"}
         ]
       },
       {
-        "name": "Calabaloo's",
-        "restText": "We got stuff!",
+        "name": "Tomassito's",
+        "restText": "Craving Italian?",
         "items": [
-
-            {"food": "Burrito"},
-            {"food": "apple"},
-            {"food": "banana"},
-            {"food": "Burrito"},
-            {"food": "Burrito"}
-
+            {"food": "Pasta Selection"},
+            {"food": "Pizza Selection"},
+            {"food": "Breadstick"},
+            {"food": "Caesar Salad"}
         ]
       }
     ]
