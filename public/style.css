@@ -50,7 +50,11 @@
 	position: relative;
 	bottom: 97px;
 	margin-left: 1025px;
+}
 
+.order:hover {
+	background-color: white;
+	cursor: pointer;
 }
 
 
@@ -85,6 +89,23 @@ header {
 body {
 	margin-top: 350px;
 }
+
+nav ul li.navitem:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+nav ul li.navitem.active {
+	text-decoration: underline;
+	color: grey;
+}
+
+
+
+
+
+
+
 
 
 
