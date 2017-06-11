@@ -1,0 +1,10 @@
+<!-- This is the page for restaurants after clicking a hall -->
+{{> header}}
+
+
+<main class="rest-container">
+<!-- dynamically allocate each restaurant tile  -->
+  {{#each rest}}
+    {{> restCard}}
+  {{/each}}
+</main>

@@ -1,0 +1,231 @@
+{
+  "west": {
+    "hallTitle": "West Dining Hall",
+    "hallText": "Go Beavs!",
+    "restaurants": [
+      {
+        "name": "Calabaloo's",
+        "restText": "Burgers Galore!",
+        "items": [
+            {"food": "Calabaloo's Hamburger"},
+            {"food": "Bacon Cheeseburger"},
+            {"food": "Chicken Sandwich"},
+            {"food": "French Fries"},
+            {"food": "Onion Rings"}
+        ]
+      },
+	  {
+        "name": "Clubhouse Deli",
+        "restText": "Made-to-Order Sandwiches",
+        "items": [
+            {"food": "Custom Sandwich"},
+            {"food": "Cereal Selection"},
+            {"food": "Bagel Selection"},
+            {"food": "Salad Bar Selection"},
+            {"food": "Smoothie Selection"},
+			{"food": "Soup Selection"}
+        ]
+      },
+	  {
+        "name": "Cooper's Creek",
+        "restText": "Heavy Meals are us!",
+        "items": [
+            {"food": "Pancakes and Waffles"},
+			{"food": "Bacon and Sausage"},
+            {"food": "Fruit Salad"},
+            {"food": "Biscuits and Gravy"},
+            {"food": "Grilled Beef and Chicken"},
+            {"food": "Fries and Potato Chips"},
+			{"food": "BBQ Pork Ribs"}
+        ]
+      },
+      {
+        "name": "EBGBs",
+        "restText": "Jumpstart your Day!",
+        "items": [
+            {"food": "Espresso"},
+            {"food": "Americano"},
+            {"food": "Latte"},
+            {"food": "Mocha"},
+            {"food": "Breve"},
+			{"food": "Cafe au Lait"},
+			{"food": "Cappuccino"},
+			{"food": "Chai Tea Latte"},
+			{"food": "Iced Coffee"},
+			{"food": "Fruit Smoothie"}
+        ]
+      },
+	  {
+        "name": "Ring of Fire",
+        "restText": "We've got your Choices!",
+        "items": [
+            {"food": "Yakisoba Noodles"},
+            {"food": "Gyoza/Pot Stickers"},
+            {"food": "Fried Rice"},
+            {"food": "Spring Rolls"},
+            {"food": "Teriyaki Chicken"},
+			{"food": "Korean Beef Rice Bowl"},
+			{"food": "Curry"},
+			{"food": "Vietnamese Chicken"},
+			{"food": "Ramen"}
+        ]
+      },
+	  {
+        "name": "Serrano Grill",
+        "restText": "We have Grills!",
+        "items": [
+            {"food": "Nachos"},
+            {"food": "Tacos"},
+            {"food": "Burrito Selection"},
+            {"food": "Quesadilla Selection"}
+        ]
+      },
+      {
+        "name": "Tomassito's",
+        "restText": "Craving Italian?",
+        "items": [
+            {"food": "Pasta Selection"},
+            {"food": "Pizza Selection"},
+            {"food": "Breadstick"},
+            {"food": "Caesar Salad"}
+        ]
+      }
+    ]
+  },
+
+  "mcnary": {
+    "hallTitle": "McNary Dining Hall",
+    "hallText": "Go Beavs!",
+    "restaurants": [
+      {
+        "name": "Boardwalk Cafe",
+        "restText": "Customize your Breakfast!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "Egg Selection"},
+            {"food": "Yogurt Selection"},
+			{"food": "Cereal Selection"},
+            {"food": "Bacon and Sausage"},
+			{"food": "Made-to-Order Baked Potato"},
+            {"food": "Made-to-Order Stirfry"},
+			{"food": "Salad Selection"}
+
+        ]
+      },
+	  {
+        "name": "Calabaloo's",
+        "restText": "Burgers Galore!",
+        "items": [
+            {"food": "Calabaloo's Hamburger"},
+            {"food": "Bacon Cheeseburger"},
+            {"food": "Chicken Sandwich"},
+            {"food": "French Fries"},
+            {"food": "Onion Rings"}
+        ]
+      },
+      {
+        "name": "Five Four One",
+        "restText": "Hungry?",
+        "items": [
+
+            {"food": "Bene Vita Bowls"},
+            {"food": "Salad Selection"},
+            {"food": "Pasta Selection"},
+            {"food": "Sandwich Selection"},
+            {"food": "Made-to-Order Pizza"}
+
+        ]
+      },
+      {
+        "name": "La Calle",
+        "restText": "Will it Wrap?",
+        "items": [
+
+            {"food": "Made-to-Order Burrito"},
+            {"food": "Made-to-Order Taco"},
+            {"food": "Made-to-Order Tortilla"},
+            {"food": "Nachos"},
+            {"food": "Chips and Dip"}
+
+        ]
+      },
+	  {
+        "name": "RainTree Coffee",
+        "restText": "Expresso Express!",
+        "items": [
+
+            {"food": "Coffee"},
+            {"food": "Americano"},
+            {"food": "Latte"},
+            {"food": "Expresso"},
+			{"food": "Cappuccino"},
+            {"food": "Mocha"},
+            {"food": "Caramel Macchiato"},
+			{"food": "Breve"},
+            {"food": "Iced Coffee"},
+            {"food": "Italian Soda"},
+            {"food": "Frappuccino"},
+			{"food": "Hot Chocolate"}
+        ]
+      },
+	  {
+        "name": "The Main Squeeze",
+        "restText": "Refreshing!",
+        "items": [
+
+            {"food": "Yogurt Bowl Selection"},
+            {"food": "Smoothie Selection"},
+            {"food": "Frozen Yogurt Selection"}
+        ]
+      }
+    ]
+  },
+
+  "arnold": {
+    "hallTitle": "Arnold Dining Hall",
+    "hallText": "Go Beavs!",
+    "restaurants": [
+      {
+        "name": "Seranos",
+        "restText": "We got Burritos!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "EBGBs",
+        "restText": "We got stuff!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      },
+      {
+        "name": "Calabaloo's",
+        "restText": "We got stuff!",
+        "items": [
+
+            {"food": "Burrito"},
+            {"food": "apple"},
+            {"food": "banana"},
+            {"food": "Burrito"},
+            {"food": "Burrito"}
+
+        ]
+      }
+    ]
+  }
+
+}

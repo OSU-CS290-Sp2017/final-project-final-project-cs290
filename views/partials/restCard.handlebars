@@ -1,0 +1,16 @@
+<!-- This is the partial for a restaurant box -->
+<article class="rest">
+  <div class="rest-content">
+    <p class="rest-title">
+      <a href="#">{{name}}</a>
+    </p>
+    <p class="rest-text">
+      {{restText}}
+    </p>
+  </div>
+  <div class="rest-items">
+    {{#list items}}
+      {{food}}
+      {{/list}}
+  </div>
+</article>
