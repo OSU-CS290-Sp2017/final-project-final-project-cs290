@@ -130,6 +130,20 @@ nav {
 	you can change this if there needs to be a difference in either one.
 */
 
+.rest-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	flex-direction: row;
+}
+
+.rest{
+	flex: 1 30%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
 .hall-container .rest-container{
 
 }
