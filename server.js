@@ -24,17 +24,24 @@ hbs.registerHelper("list",function(items,options){
 });
 
 app.get('/',function(req,res,next){
-/*
+
   var tempArgs = {
-    hall: hallData
+    home: "active",
+    hall: "",
+    about: "",
   }
-*/
-  res.render('diningPage.handlebars'); /*,tempArgs);*/
+
+  res.render('diningPage.handlebars', tempArgs); /*,tempArgs);*/
 
 });
 
 app.get('/about',function(req,res,next){
-  res.render('about');
+  var tempArgs = {
+    home: "",
+    hall: "",
+    about: "active",
+  }
+  res.render('about', tempArgs);
 
 });
 
@@ -48,6 +55,9 @@ app.get('/:hall', function(req,res,next){
       restText: restData.restaurants.restText,
 	    imgurl: restData.restaurants.imgurl,
       items: restData.restaurants.items,
+      home: "",
+      hall: "active",
+      about: "",
       }
     res.render('restPage.handlebars',tempArgs);
 
