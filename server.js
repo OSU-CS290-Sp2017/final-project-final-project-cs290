@@ -5,12 +5,14 @@ var app = express();
 var exphbs = require('express-handlebars');
 var hbs = require('handlebars');
 var hallData = require('./hallData');
+var bodyParser = require('body-parser');
+var orderData = require('./orderData');
 var port = process.env.PORT || 3000;
 
 
 app.engine('handlebars',exphbs({defaultLayout: 'main'}));
 app.set('view engine','handlebars');
-
+app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname,'public')));
 
 hbs.registerHelper("list",function(items,options){
@@ -53,6 +55,19 @@ app.get('/:hall', function(req,res,next){
   next();
 }
 });
+
+app.post('/', function(req,res,next){
+
+  var order = {
+    name: req.body.name,
+    address: req.body.address,
+    order: req.body.order
+  };
+
+
+
+});
+
 
 app.get('*', function(req,res,next){
 
