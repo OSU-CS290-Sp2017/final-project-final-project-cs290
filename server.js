@@ -38,8 +38,8 @@ app.get('/:hall', function(req,res,next){
   if (restData) {
     var tempArgs = {
       rest: restData.restaurants,
-      name: restData.restaurants.name,
       restText: restData.restaurants.restText,
+	  imgurl: restData.restaurants.imgurl,
       items: restData.restaurants.items,
       }
     res.render('restPage.handlebars',tempArgs);

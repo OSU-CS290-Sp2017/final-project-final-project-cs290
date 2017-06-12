@@ -6,6 +6,7 @@
       {
         "name": "Calabaloo's",
         "restText": "Burgers Galore!",
+		"imgurl":"pics/west/calabaloos.jpg",
         "items": [
             {"food": "Calabaloo's Hamburger"},
             {"food": "Bacon Cheeseburger"},
@@ -17,6 +18,7 @@
 	  {
         "name": "Clubhouse Deli",
         "restText": "Made-to-Order Sandwiches",
+		"imgurl":"pics/west/clubhouse_deli.jpg",
         "items": [
             {"food": "Custom Sandwich"},
             {"food": "Cereal Selection"},
@@ -29,6 +31,7 @@
 	  {
         "name": "Cooper's Creek",
         "restText": "Heavy Meals are us!",
+		"imgurl":"pics/west/coopers-creek-bbq.gif",
         "items": [
             {"food": "Pancakes and Waffles"},
 			{"food": "Bacon and Sausage"},
@@ -42,6 +45,7 @@
       {
         "name": "EBGBs",
         "restText": "Jumpstart your Day!",
+		"imgurl":"pics/west/ebgbs_cmyk.jpg",
         "items": [
             {"food": "Espresso"},
             {"food": "Americano"},
@@ -58,6 +62,7 @@
 	  {
         "name": "Ring of Fire",
         "restText": "We've got your Choices!",
+		"imgurl":"pics/west/ring-of-fire.gif",
         "items": [
             {"food": "Yakisoba Noodles"},
             {"food": "Gyoza/Pot Stickers"},
@@ -73,6 +78,7 @@
 	  {
         "name": "Serrano Grill",
         "restText": "We have Grills!",
+		"imgurl":"pics/west/serrano_grill.jpg",
         "items": [
             {"food": "Nachos"},
             {"food": "Tacos"},
@@ -83,6 +89,7 @@
       {
         "name": "Tomassito's",
         "restText": "Craving Italian?",
+		"imgurl":"pics/west/tomassitos.gif",
         "items": [
             {"food": "Pasta Selection"},
             {"food": "Pizza Selection"},
@@ -100,6 +107,7 @@
       {
         "name": "Boardwalk Cafe",
         "restText": "Customize your Breakfast!",
+		"imgurl":"pics/mcnary/boardwalk-cafe.gif",
         "items": [
 
             {"food": "Burrito"},
@@ -116,6 +124,7 @@
 	  {
         "name": "Calabaloo's",
         "restText": "Burgers Galore!",
+		"imgurl":"pics/mcnary/calabaloos.jpg",
         "items": [
             {"food": "Calabaloo's Hamburger"},
             {"food": "Bacon Cheeseburger"},
@@ -127,6 +136,7 @@
       {
         "name": "Five Four One",
         "restText": "Hungry?",
+		"imgurl":"pics/mcnary/fivefourone.jpg",
         "items": [
 
             {"food": "Bene Vita Bowls"},
@@ -140,6 +150,7 @@
       {
         "name": "La Calle",
         "restText": "Will it Wrap?",
+		"imgurl":"pics/mcnary/lacalle.png",
         "items": [
 
             {"food": "Made-to-Order Burrito"},
@@ -153,6 +164,7 @@
 	  {
         "name": "RainTree Coffee",
         "restText": "Expresso Express!",
+		"imgurl":"pics/mcnary/raintreecoffee.jpg",
         "items": [
 
             {"food": "Coffee"},
@@ -172,57 +184,12 @@
 	  {
         "name": "The Main Squeeze",
         "restText": "Refreshing!",
+		"imgurl":"pics/mcnary/mainsqueeze.gif",
         "items": [
 
             {"food": "Yogurt Bowl Selection"},
             {"food": "Smoothie Selection"},
             {"food": "Frozen Yogurt Selection"}
-        ]
-      }
-    ]
-  },
-
-  "arnold": {
-    "hallTitle": "Arnold Dining Hall",
-    "hallText": "Go Beavs!",
-    "restaurants": [
-      {
-        "name": "Seranos",
-        "restText": "We got Burritos!",
-        "items": [
-
-            {"food": "Burrito"},
-            {"food": "apple"},
-            {"food": "banana"},
-            {"food": "Burrito"},
-            {"food": "Burrito"}
-
-        ]
-      },
-      {
-        "name": "EBGBs",
-        "restText": "We got stuff!",
-        "items": [
-
-            {"food": "Burrito"},
-            {"food": "apple"},
-            {"food": "banana"},
-            {"food": "Burrito"},
-            {"food": "Burrito"}
-
-        ]
-      },
-      {
-        "name": "Calabaloo's",
-        "restText": "We got stuff!",
-        "items": [
-
-            {"food": "Burrito"},
-            {"food": "apple"},
-            {"food": "banana"},
-            {"food": "Burrito"},
-            {"food": "Burrito"}
-
         ]
       }
     ]
