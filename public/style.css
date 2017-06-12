@@ -16,6 +16,20 @@ header {
 
 }
 
+.about{
+	color: #c44512;
+	padding-left: 50px;
+
+}
+
+.about ul{
+	list-style-type: none;
+}
+
+.about p{
+	padding-left: 40px;
+}
+
 .osu-image {
 	position: relative;
 	display: block;
@@ -45,7 +59,7 @@ header {
 #order-box {
 	position: absolute;
 	top: 160px;
-	left: 950px;
+	right: 50px;
 	border: 3px solid black;
 	background-color: #c44512;
 	padding: 15px;
