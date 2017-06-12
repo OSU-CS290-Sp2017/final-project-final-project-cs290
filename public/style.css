@@ -94,6 +94,11 @@ header {
 	box-shadow: 0 3px #666;
 	transform: translateY(4px);
 }
+
+.page-wrap {
+	width: 960px;
+	margin: 0 auto;
+}
 	
 
 
