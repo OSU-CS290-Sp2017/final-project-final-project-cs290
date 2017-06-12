@@ -1,42 +1,40 @@
 body {
+<<<<<<< HEAD
 	margin-top: 150px;
+=======
+>>>>>>> 555230ed868b1d4bd572f9c9204f9305750fdab8
 	background-color: white;
 }
+
 
 a {
 text-decoration: none;
 }
 
 header {
-	background-color: black;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	bottom: 500px;
+	position: relative;
 
 }
 
 .osu-image {
 	position: relative;
-	width: 50%;
-	height: 60%;
 	display: block;
 	margin: 0 auto;
 	z-index: 1;
 }
 
 .OSU-Text {
+	background-color: black;
 	color: white;
 	text-align:center;
 	position: relative;
-	bottom: 13px;
 	font-size: 2em;
+	margin-top: 2%;
 }
 
 #back-change {
 	width: 100%;
-	height: 60%;
+	height: 70%;
 	display: block;
 	margin: 0 auto;
 	position: absolute;
@@ -52,6 +50,7 @@ header {
 	background-color: #c44512;
 	padding: 15px;
 	display: none;
+	z-index: 2;
 }
 
 .order-field {
@@ -62,13 +61,10 @@ header {
 
 .order {
 	text-align: right;
-	right: 60px;
 	color: #c44512;
 	font-weight: bold;
 	font-size: 2em;
-	position: relative;
-	bottom: 71px;
-	margin-left: 1080px;
+	margin-left: 85%;
 	padding-right: 8px;
 }
 
@@ -106,7 +102,7 @@ nav {
 	text-align: left;
 	position: absolute;
 	left: 5px;
-	bottom: 1px;
+	bottom: 20px;
 }
 
 
@@ -136,17 +132,23 @@ nav {
 */
 
 .rest-container{
+	margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: left;
+	/*justify-content: left;
+	align-content: flex-start;*/
 	flex-direction: row;
 }
 
 .rest{
-	flex: 1 30%;
+	flex: 0 1 30%;
+
 	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+	border-width: 5px;
+	border-color: #c44512;
+	margin-right: -5px;
+	margin-bottom: -5px;
+	padding: 3px;
 }
 
 .hall-container .rest-container{
@@ -196,6 +198,14 @@ nav ul {
 .rest-food{
 	font-size: 20px;
 	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+.rest-logo{
+	width: 50%;
+	background-color: white;
+    display: block;
+    margin: auto;
 }
 
 .navsub {

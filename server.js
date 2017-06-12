@@ -5,12 +5,14 @@ var app = express();
 var exphbs = require('express-handlebars');
 var hbs = require('handlebars');
 var hallData = require('./hallData');
+var bodyParser = require('body-parser');
+var orderData = require('./orderData');
 var port = process.env.PORT || 3000;
 
 
 app.engine('handlebars',exphbs({defaultLayout: 'main'}));
 app.set('view engine','handlebars');
-
+app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname,'public')));
 
 hbs.registerHelper("list",function(items,options){
@@ -31,6 +33,11 @@ app.get('/',function(req,res,next){
 
 });
 
+app.get('/about',function(req,res,next){
+  res.render('about');
+
+});
+
 app.get('/:hall', function(req,res,next){
   console.log('==url params for request:',req.params);
   var hall = req.params.hall;
@@ -39,7 +46,7 @@ app.get('/:hall', function(req,res,next){
     var tempArgs = {
       rest: restData.restaurants,
       restText: restData.restaurants.restText,
-	  imgurl: restData.restaurants.imgurl,
+	    imgurl: restData.restaurants.imgurl,
       items: restData.restaurants.items,
       }
     res.render('restPage.handlebars',tempArgs);
@@ -48,6 +55,19 @@ app.get('/:hall', function(req,res,next){
   next();
 }
 });
+
+app.post('/', function(req,res,next){
+
+  var order = {
+    name: req.body.name,
+    address: req.body.address,
+    order: req.body.order
+  };
+
+
+
+});
+
 
 app.get('*', function(req,res,next){
 
