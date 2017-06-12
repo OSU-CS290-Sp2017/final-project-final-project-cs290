@@ -1,6 +1,6 @@
 body {
-	margin-top: 350px;
-	background-color: grey;
+	margin-top: 150px;
+	background-color: white;
 }
 
 a {
@@ -75,6 +75,12 @@ header {
 .order:hover {
 	background-color: white;
 	cursor: pointer;
+}
+
+.home-text {
+	text-align: center;
+	font-size: 3em;
+	color: #c44512;
 }
 
 #place-order {      
@@ -213,3 +219,11 @@ nav ul {
 	text-decoration: underline;
 	color: white;
 }
+
+#centerImg {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+}
+	

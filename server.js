@@ -22,12 +22,12 @@ hbs.registerHelper("list",function(items,options){
 });
 
 app.get('/',function(req,res,next){
-
+/*
   var tempArgs = {
     hall: hallData
   }
-
-  res.render('diningPage.handlebars',tempArgs);
+*/
+  res.render('diningPage.handlebars'); /*,tempArgs);*/
 
 });
 
