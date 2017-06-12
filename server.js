@@ -31,6 +31,11 @@ app.get('/',function(req,res,next){
 
 });
 
+app.get('/about',function(req,res,next){
+  res.render('about');
+
+});
+
 app.get('/:hall', function(req,res,next){
   console.log('==url params for request:',req.params);
   var hall = req.params.hall;
@@ -39,7 +44,7 @@ app.get('/:hall', function(req,res,next){
     var tempArgs = {
       rest: restData.restaurants,
       restText: restData.restaurants.restText,
-	  imgurl: restData.restaurants.imgurl,
+	    imgurl: restData.restaurants.imgurl,
       items: restData.restaurants.items,
       }
     res.render('restPage.handlebars',tempArgs);

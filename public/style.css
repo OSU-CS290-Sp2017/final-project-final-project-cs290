@@ -133,12 +133,14 @@ nav {
 .rest-container{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: left;
+	/*justify-content: left;
+	align-content: flex-start;*/
 	flex-direction: row;
 }
 
 .rest{
 	flex: 1 30%;
+	max-width: 30%;
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
@@ -191,6 +193,14 @@ nav ul {
 .rest-food{
 	font-size: 20px;
 	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+.rest-logo{
+	width: 50%;
+	background-color: white;
+    display: block;
+    margin: auto;
 }
 
 .navsub {
