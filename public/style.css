@@ -1,6 +1,6 @@
 body {
 	margin-top: 350px;
-	background-color: grey;
+	background-color: white;
 }
 
 a {
@@ -52,6 +52,7 @@ header {
 	background-color: #c44512;
 	padding: 15px;
 	display: none;
+	z-index: 2;
 }
 
 .order-field {
@@ -141,8 +142,10 @@ nav {
 	flex: 1 30%;
 	max-width: 30%;
 	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+	border-width: 5px;
+	border-color: #c44512;
+	margin-right: -5px;
+	margin-bottom: -5px;
 }
 
 .hall-container .rest-container{
