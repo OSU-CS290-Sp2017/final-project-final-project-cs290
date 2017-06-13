@@ -48,11 +48,29 @@ var placeOrder = document.getElementById('place-order');
 function storeOrderData() {
 
   var nameData = document.getElementById('name-input').value;
-  var idData = document.getElementById('ID-input').value;
+  var IDData = document.getElementById('ID-input').value;
   var orderData = document.getElementById('order-input').value
 
-  var orderObj = {"name":nameData, "ID":idData, "order":orderData};
-  
+  var postURL = '/';
+  var postRequest = new XMLHttpRequest();
+  postRequest.open('POST',postURL);
+  postRequest.setRequestHeader('Content-Type', 'application/json');
+
+    // postRequest.addEventListener('load',function(event){
+    //   var error;
+    //   if(event.target.status !== 200){
+    //     error = event.target.response;
+    //   }
+    //   callback(error);
+    // });
+
+    var postObj = {
+      name: nameData,
+      ID: IDData,
+      order: orderData
+    };
+
+    postRequest.send(JSON.stringify(postObj));
 }
 
 placeOrder.onclick = function(){storeOrderData()};

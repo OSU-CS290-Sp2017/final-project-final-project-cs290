@@ -68,12 +68,32 @@ app.get('/:hall', function(req,res,next){
 
 app.post('/', function(req,res,next){
 
-  var order = {
-    name: req.body.name,
-    ID: req.body.ID,
-    order: req.body.order
+  if (orderData[0] == null){
+    orders = []
+  }  else{
+    orders = orderData;
   };
 
+  if (req.body){
+    console.log("name==",req.body.name);
+
+    var order = {
+      name: req.body.name,
+      ID: req.body.ID,
+      order: req.body.order
+    };
+
+    orders.push(order);
+    fs.writeFile('orderData.json', JSON.stringify(orders),function(err){
+      if (err){
+        res.status(500).send("unable to store order data");
+      }else{
+        res.status(200).send();
+      }
+    });
+  } else{
+    next();
+  }
 
 
 });
