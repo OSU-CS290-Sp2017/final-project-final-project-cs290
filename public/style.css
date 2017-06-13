@@ -264,4 +264,29 @@ nav ul {
 	width: 50%;
 	height: 50%;
 }
+
+.footer {
+	width: 102%;
+	background-color: black;
+	padding: 15px;
+	margin-left: -10px;
+	margin-top: 40px;
+}
+
+.footer-list {
+	list-style-type: none;
+	text-align: center;
+}
+
+.footer-list li {
+	display: inline;
+	padding: 25px;
+
+}
+
+.footer-items a {
+	text-decoration: none;
+	color: white;
+	font-size: 2em;
+}
 	
