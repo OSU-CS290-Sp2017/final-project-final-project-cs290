@@ -81,7 +81,7 @@ function storeOrderData() {
 	    document.getElementById('ID-input').value = "";
 	    document.getElementById('order-input').value = "";
 	    revealRemove(orderBox);
-	    alert("Your oder has been placed");
+	    alert("Your order has been placed");
   }else{
 	    alert("All fields must be filled");
   }
