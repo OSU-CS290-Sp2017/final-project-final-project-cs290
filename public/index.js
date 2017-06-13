@@ -1,5 +1,6 @@
 
 var orderData = document.getElementById("ord");
+var closeOrder = document.getElementsByClassName("cancel-order")[0];
 var restaurants = document.getElementById("restaurants");
 var hallList = document.getElementsByClassName("navsub")[0];
 var orderBox = document.getElementById("order-box");
@@ -17,6 +18,7 @@ function revealRemove(ele) {
 }
 
 orderData.onclick = function() {revealRemove(orderBox)};  //shows and hides order box
+closeOrder.onmousedown = function() {revealRemove(orderBox)}; //^^^^^^^^^^^^^^^^^^^^^^^^
 restaurants.onclick = function() {revealRemove(hallList)};  //shows and hides restaurants in restaurant selection tab
 
 function expand(num){
@@ -29,8 +31,8 @@ function expand(num){
 	}else{
 		//console.log("display was ", expandList[num].style.display);
 		expandList[num].style.display = "none";
-		expandBox[num].style.borderBottomLeftRadius = "30px";
-		expandBox[num].style.borderBottomRightRadius = "30px";
+		expandBox[num].style.borderBottomLeftRadius = "20px";
+		expandBox[num].style.borderBottomRightRadius = "20px";
 	}
 }
 
