@@ -20,11 +20,14 @@ orderData.onclick = function() {revealRemove(orderBox)};  //shows and hides orde
 restaurants.onclick = function() {revealRemove(hallList)};  //shows and hides restaurants in restaurant selection tab
 
 function expand(num){
-	if (expandList[num].style.display === "none"){
+	console.log("In expand function");
+	if (expandList[num].style.display === "none" || expandList[num].style.display === ""){
+		console.log("Diplay was none");
 		expandList[num].style.display = "block";
 		expandBox[num].style.borderBottomLeftRadius = "0px";
 		expandBox[num].style.borderBottomRightRadius = "0px";
 	}else{
+		console.log("display was ", expandList[num].style.display);
 		expandList[num].style.display = "none";
 		expandBox[num].style.borderBottomLeftRadius = "30px";
 		expandBox[num].style.borderBottomRightRadius = "30px";

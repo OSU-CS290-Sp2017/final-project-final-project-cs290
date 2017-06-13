@@ -236,6 +236,7 @@ nav ul {
 	padding-left: 15%;
 	padding-right: 15%;
 	border-color: #c44512;
+	min-width: 150px;
 }
 
 .navsub {
