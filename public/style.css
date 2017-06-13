@@ -59,7 +59,7 @@ header {
 #order-box {
 	position: absolute;
 	top: 160px;
-	right: 50px;
+	left: 950px;
 	border: 3px solid black;
 	background-color: #c44512;
 	padding: 15px;
@@ -156,12 +156,6 @@ nav {
 
 .rest{
 	flex: 0 1 30%;
-
-	border-style: solid;
-	border-width: 5px;
-	border-color: #c44512;
-	margin-right: -5px;
-	margin-bottom: -5px;
 	padding: 3px;
 }
 
@@ -198,13 +192,27 @@ nav ul {
 }
 
 
-.hall-text .rest-text {
-
+.rest-text {
+	margin-top:0;
+	margin-bottom: -3px;
+	text-align: center;
+	font-size:30px;
+	border-style: solid;
+	border-color: #c44512;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	cursor: pointer;
 }
 
 /*rest items is <ul> tag*/
 .rest-items {
-
+	border-style: solid;
+	border-color: #c44512;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	display: none;
 }
 
 /*rest-food is <li> tag*/
@@ -220,6 +228,14 @@ nav ul {
 	background-color: white;
     display: block;
     margin: auto;
+	border-style: solid;
+	border-width: 10px;
+	border-bottom-width: 0px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+	border-color: #c44512;
 }
 
 .navsub {
