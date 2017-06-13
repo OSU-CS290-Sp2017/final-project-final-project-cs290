@@ -20,14 +20,14 @@ orderData.onclick = function() {revealRemove(orderBox)};  //shows and hides orde
 restaurants.onclick = function() {revealRemove(hallList)};  //shows and hides restaurants in restaurant selection tab
 
 function expand(num){
-	console.log("In expand function");
+	//console.log("In expand function");
 	if (expandList[num].style.display === "none" || expandList[num].style.display === ""){
-		console.log("Diplay was none");
+		//console.log("Diplay was none");
 		expandList[num].style.display = "block";
 		expandBox[num].style.borderBottomLeftRadius = "0px";
 		expandBox[num].style.borderBottomRightRadius = "0px";
 	}else{
-		console.log("display was ", expandList[num].style.display);
+		//console.log("display was ", expandList[num].style.display);
 		expandList[num].style.display = "none";
 		expandBox[num].style.borderBottomLeftRadius = "30px";
 		expandBox[num].style.borderBottomRightRadius = "30px";
@@ -48,10 +48,10 @@ var placeOrder = document.getElementById('place-order');
 function storeOrderData() {
 
   var nameData = document.getElementById('name-input').value;
-  var addressData = document.getElementById('address-input').value;
+  var idData = document.getElementById('ID-input').value;
   var orderData = document.getElementById('order-input').value
 
-  var orderObj = {"name":nameData, "address":addressData, "order":orderData};
+  var orderObj = {"name":nameData, "ID":idData, "order":orderData};
   
 }
 
