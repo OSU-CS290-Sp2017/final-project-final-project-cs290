@@ -21,6 +21,7 @@ orderData.onclick = function() {revealRemove(orderBox)};  //shows and hides orde
 closeOrder.onmousedown = function() {revealRemove(orderBox)}; //^^^^^^^^^^^^^^^^^^^^^^^^
 restaurants.onclick = function() {revealRemove(hallList)};  //shows and hides restaurants in restaurant selection tab
 
+
 function expand(num){
 	//console.log("In expand function");
 	if (expandList[num].style.display === "none" || expandList[num].style.display === ""){
@@ -47,11 +48,13 @@ for(var i=0; i<expandBox.length; i++)
 
 var placeOrder = document.getElementsByClassName('submit-order')[0];
 
+
+
 function storeOrderData() {
 
   var nameData = document.getElementById('name-input').value;
   var IDData = document.getElementById('ID-input').value;
-  var orderData = document.getElementById('order-input').value
+  var orderData = document.getElementById('order-input').value;
 
   var postURL = '/';
   var postRequest = new XMLHttpRequest();
@@ -73,6 +76,12 @@ function storeOrderData() {
     };
 
     postRequest.send(JSON.stringify(postObj));
+
+    document.getElementById('name-input').value = "";
+    document.getElementById('ID-input').value = "";
+    document.getElementById('order-input').value = "";
+    revealRemove(orderBox);
+    alert("Your oder has been placed");
 }
 
 placeOrder.onclick = function(){storeOrderData()};
