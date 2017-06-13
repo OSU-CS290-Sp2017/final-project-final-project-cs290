@@ -1,8 +1,4 @@
 body {
-<<<<<<< HEAD
-	margin-top: 150px;
-=======
->>>>>>> 555230ed868b1d4bd572f9c9204f9305750fdab8
 	background-color: white;
 }
 
@@ -243,8 +239,8 @@ nav ul {
 	position: absolute;
 	text-decoration: none;
 	font-size: 1em;
-	left: 110px;
-	top: 50px;
+	left: 100px;
+	top: 28px;
 	list-style-type: none;
 	border: 3px solid black;
 	background-color: #c44512;
