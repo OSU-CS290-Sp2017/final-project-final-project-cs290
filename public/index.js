@@ -55,33 +55,36 @@ function storeOrderData() {
   var nameData = document.getElementById('name-input').value;
   var IDData = document.getElementById('ID-input').value;
   var orderData = document.getElementById('order-input').value;
+  if(IDData != "" && nameData != "" && orderData != "") {
+	  var postURL = '/';
+	  var postRequest = new XMLHttpRequest();
+	  postRequest.open('POST',postURL);
+	  postRequest.setRequestHeader('Content-Type', 'application/json');
 
-  var postURL = '/';
-  var postRequest = new XMLHttpRequest();
-  postRequest.open('POST',postURL);
-  postRequest.setRequestHeader('Content-Type', 'application/json');
+	    // postRequest.addEventListener('load',function(event){
+	    //   var error;
+	    //   if(event.target.status !== 200){
+	    //     error = event.target.response;
+	    //   }
+	    //   callback(error);
+	    // });
 
-    // postRequest.addEventListener('load',function(event){
-    //   var error;
-    //   if(event.target.status !== 200){
-    //     error = event.target.response;
-    //   }
-    //   callback(error);
-    // });
+	    var postObj = {
+	      name: nameData,
+	      ID: IDData,
+	      order: orderData
+	    };
 
-    var postObj = {
-      name: nameData,
-      ID: IDData,
-      order: orderData
-    };
+	    postRequest.send(JSON.stringify(postObj));
 
-    postRequest.send(JSON.stringify(postObj));
-
-    document.getElementById('name-input').value = "";
-    document.getElementById('ID-input').value = "";
-    document.getElementById('order-input').value = "";
-    revealRemove(orderBox);
-    alert("Your oder has been placed");
+	    document.getElementById('name-input').value = "";
+	    document.getElementById('ID-input').value = "";
+	    document.getElementById('order-input').value = "";
+	    revealRemove(orderBox);
+	    alert("Your oder has been placed");
+  }else{
+	    alert("All fields must be filled");
+  }
 }
 
 placeOrder.onclick = function(){storeOrderData()};
