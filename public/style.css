@@ -153,6 +153,7 @@ nav {
 .rest{
 	flex: 0 1 30%;
 	padding: 3px;
+	margin-right: 10px;
 }
 
 .hall-container .rest-container{
