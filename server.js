@@ -68,7 +68,7 @@ app.get('/:hall', function(req,res,next){
 
 app.post('/', function(req,res,next){
 
-  if (orderData[0] == null){
+  if (orderData[0] == ""){
     orders = []
   }  else{
     orders = orderData;

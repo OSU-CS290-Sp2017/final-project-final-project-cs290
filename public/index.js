@@ -45,7 +45,7 @@ for(var i=0; i<expandBox.length; i++)
 //This function places the order by turning the strings into a JSON object
 //for later use.
 
-var placeOrder = document.getElementById('place-order');
+var placeOrder = document.getElementsByClassName('submit-order')[0];
 
 function storeOrderData() {
 
